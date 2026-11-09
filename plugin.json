@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "FarmingGrid",
+  "name": "Farming Grid",
+  "guid": "jordan.valheim.farminggrid",
+  "version": "0.1.0",
+  "author": "Glutoblop",
+  "description": "Projects a color-coded planting grid and stops crops and saplings being planted too close together.",
+  "repo": "Glutoblop/FarmingGrid",
+  "branch": "main",
+  "client_only": true,
+  "files": [
+    "dist/FarmingGrid.dll"
+  ],
+  "install_dir": "BepInEx/plugins/FarmingGrid",
+  "requires": {
+    "BepInExPack_Valheim": "5.4.2360"
+  },
+  "valheim": {
+    "version": "1.0.21",
+    "network_version": 41,
+    "steam_build": 26249040
+  },
+  "changelog": {
+    "0.1.0": "Added a terrain-following planting grid with snapping, spacing warnings, and blocked placements."
+  }
+}
